@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#containerBox {
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+  flex-direction: column;
+  margin-top: 10vh;
+  padding: 12px;
+}
+#heroTitle {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 12px;
+}
+
+button {
+  width: 40px;
+  margin-left: 80%;
+  height: 40px;
+  border-radius: 50%;
+  background: none;
+  color: black;
+  font-weight: 800;
+  font-size: 18px;
+  border: 1.5px solid black;
+  cursor: pointer;
+}
+#innerbox {
+  margin-top: 20px;
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart {
+  width: 30%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px 3px #c1c1c1b3;
+  transition: all .5s;
+}
+.cart:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 10px 3px rgb(254, 192, 134);
+}
+
+.titlebox {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+img {
+  width: 100%;
+  height: 65%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+p {
+  margin-left: 15px;
+}

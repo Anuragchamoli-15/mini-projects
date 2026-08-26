@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding:0;
+
+    /* display: flex; */
+    justify-items: center;
+}
+
+/* card */
+
+
+.card{
+    width: 100vw;
+    height: 50vh;
+    border: 2px black solid;
+    overflow: hidden;
+
+    background-color: black;
+
+    animation-name: card;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes card{
+    0%{
+        background-color: black;}
+
+        25%{
+            background-color: rgb(255, 123, 0);
+        }
+
+        100%{
+            background-color: skyblue;
+        }
+    }
+
+
+.item1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+    background-color: red;
+
+    animation-name:-anuragchamoli;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    
+
+    
+}
+
+/* :hover */
+
+/* .card:hover{
+    animation-name:-anuragchamoli;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+} */
+
+
+@keyframes -anuragchamoli{
+    0%{
+        
+        background-color: yellow;
+        transform: translateY(0);
+    }
+    100%{
+        background-color:red; 
+        transform: translateY(300px);
+
+    }
+}
