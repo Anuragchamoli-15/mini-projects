@@ -49,7 +49,7 @@ a:hover{
 }
 button{
     font-size: 1em;
-    border-radius:10px ;
+    border-radius:10px;
     cursor: pointer;
 }
 button:hover{
